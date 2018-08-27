@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignmeng4 Yanze</title>
+    <link rel="stylesheet" href="./assignment4.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+    <h1>Let's talk</h1>
+    <p>Think you have what it takes? Show us.</p>
+    </header>
+    <!--main-->
+    <form action="/assignment4.asp" method="post">
+        <!--Personal Information-->
+        <div class="PersonalInformation">
+            <h3>1. Personal Information</h3>
+            <hr/>
+            <br/>
+            
+            <input type="text" id="Fullname" placeholder="Full name*" pattern = [A-Za-z]required />
+            
+            <input type="text" id="phone*" placeholder="phone:" pattern =  required /><br/>
+            <br/>
+            
+            <input type="text" id="email" placeholder="Email*" pattern = required /><br/>
+            <br/>
+            
+            <input type="text" id="Reemail" placeholder="Re-enter Email*" required /><br/>
+            <br/>
+            
+            <input type="text" id="Address" placeholder="Address*" required /><br/>
+            <br/>
+            
+            <input type="text" id="city" placeholder="City*" required />
+            
+            <input type="text" id="state" placeholder="State" required />
+            
+            <input type="text" id="countryRegion" placeholder="Country/Region"/>
+            
+            <input type="text" id="postcode" placeholder="Zip/Postal code"/><br>
+            <br>
+            
+            <input type="text" id="howknowus" placeholder="How did you hear about us"/>   
+        </div>
+
+        <!--*********************************************-->
+        <!--skills and location-->
+        <!--*********************************************-->
+
+        <div class="SkillLocation">
+            <h3>2. Skill and location</h3>
+            <hr/>
+            <div class="designdiscipline">
+                <br/>
+                <p>Which is your primary design discipline?'</p>
+                <br/>
+                <input type="radio" id="designResearch" name="designdiscipline" placeholder="design Research"/>
+                <label for="designResearch">DesignResearch</label>
+                <input type="radio" id="visualResearch" name="designdiscipline" placeholder="Visual_Research"/>
+                <label for="visualResearch">VisualResearch</label>
+                <input type="radio" id="UXResearch" name="designdiscipline" placeholder="UX Research"/>
+                <label for="UXResearch">UXResearch</label>
+                <input type="radio" id="FrontendDev" name="designdiscipline" placeholder="Front-end Dev"/>
+                <label for="FrontendDev">Front-end Dev</label>
+        
+            </div>     
+                        
+            <div class="wrapper">
+                
+                
+                <div class="leftbox">
+            
+                    <p>Do you have experience with any other disciplines?</p>
+                   
+                    <input type="checkbox" id="discipline_experience" name="discipline_experience" value="Visual Design"/>
+                    <label for="discipline_experience">Visual Design</label><br/>
+                    <input type="checkbox" id="UX Design" name="discipline_experience" value="UX Design"/>
+                    <label for="discipline_experience">UX Design</label><br/>
+                    <input type="checkbox" id="Front-end Development" name="discipline_experience" value="Front-end Development"/>
+                    <label for="discipline_experience">Front-end Development</label><br/>
+                </div>
+
+                <div class="rightbox">
+ 
+                    <p>Where are you interested in working?*<br/>
+                    You must be highly authorized to work without visa sponsorship in the location(s) you choose.
+                    </p>
+                    <input type="checkbox" id="AustinTexas" name="workingplace" value="AustinTexas"/>
+                    <label for="AustinTexas">Austin, Texas</label><br/>
+                    <input type="checkbox" id="NewYork" name="workingplace" value="NewYork"/>
+                    <label for="NewYork">NewYork, NewYork</label><br/>
+                    <input type="checkbox" id="TorontoCanada" name="workingplace" value="TorontoCanada"/>
+                    <label for="TorontoCanada">Toronto,Canada</label><br/>
+                    <input type="checkbox" id="Shanghai" name="workingplace" value="ShanghaiChina"/>
+                    <label for="Shanghai">Shanghai, China</label><br/>
+                    <input type="checkbox" id="DublinIreland" name="workingplace" value="DublinIreland"/>
+                    <label for="DublinIreland">Dublin, Ireland</label><br/>
+                    <input type="checkbox" id="HursleyUK" name="workingplace" value="HursleyUK"/>
+                    <label for="HursleyUK">Hursley, United Kindom</label><br/>
+                    <input type="checkbox" id="BoeblingenGermany" name="workingplace" value="BoeblingenGermany"/>
+                    <label for="BoeblingenGermany">Boeblingen, Germany</label><br/>
+                    <input type="checkbox" id="Somewhereelse" name="workingplace" value="Somewhere else"/>
+                    <label for="Somewhereelse">Somewhere else</label><br/>
+                    
+                </div>
+
+            </div>    
+            
+            <!--*********************************************-->
+            <!--Portfolio-->
+            <!--*********************************************-->
+            
+            <div class="portfolio">
+                <h3>3. Portfolio</h3>
+                <hr/>
+                <p>Prove you're IBM's next great designer by showing us who you are. What you've done. How you think.<br/>
+                Tell us your story.
+                </p>
+                <br/>
+                <p>Portfolio link*
+                </p>
+                <hr/>
+                <textarea name="anything else" id="anythingelse" rows="7" cols="200" placeholder="Anything else (another link, availability,etc)?"></textarea>
+            </div>
+            <br/>
+            <br/>
+            <input type="submit" id="lastsubmit" value="Submit"/>
+    </form>
+    
+</body>
+</html>

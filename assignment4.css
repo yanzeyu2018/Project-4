@@ -1,0 +1,112 @@
+body {
+    background: #464D55;
+    color: white;
+    margin: 30px;
+    padding: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+hr {
+    color:#1886A9;
+}
+::placeholder{
+    color:gray;
+}
+input:invalid {
+    border: 2px solid red;
+}
+input:valid {
+    border: 2px solid green;
+}
+
+/********************************************/
+/* Header*/
+/********************************************/
+
+header {
+    text-align: center;
+    color: white;
+    font-family: tahoma;
+}
+/********************************************/
+/* PersonalInformation*/
+/********************************************/
+.PersonalInformation > h3 {
+    color: white;
+}
+PersonalInformation {
+    margin: 20em;
+
+}
+#Address {
+    width: 200%;
+}
+#state, #countryRegion {
+    width: 15%;
+}
+postcode {
+    width: 20%;
+}
+input[type=text] {
+    background: transparent;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    margin-left: 3px;
+    width: 30%
+}
+
+input[type=radio] {
+    display: none;
+    width: 10em;
+    height: 3em;
+}   
+
+/********************************************/
+/*SkillLocation*/
+/********************************************/
+
+.SkillLocation {
+    margin-top: 50px;
+}
+
+.designdiscipline label {
+    margin: 1rem;
+    border: 2px solid #ffffff; 
+    padding: 1rem; 
+}
+.designdiscipline label:hover {
+    background-color: #1a53ff;
+}
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.leftbox {
+    flex: 1;
+}
+.rightbox {
+    flex: 1;
+}
+
+/********************************************/
+/*portfolio*/
+/********************************************/
+.portfolio {
+    margin-top: 30px;
+}
+
+#anythingelse {
+    margin: 5px;
+}
+
+#lastsubmit {
+    margin: 3px;
+    height: 3em;
+    width: 8em;
+}
+#lastsubmit:hover{
+    background: #1a53ff;
+}
+
